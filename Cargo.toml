@@ -11,12 +11,9 @@ edition = "2018"
 
 [dependencies]
 log = "0.3"
-futures = "0.1.1"
-tokio-core = "0.1.0"
+tokio = { version = "0.2", features = ["full"] }
+futures = "0.3"
 env_logger = "0.3"
 byteorder = "0.5.3"
 bytes = "0.5.4"
 iota = "0.2"
-
-[dev-dependencies]
-curl = "=0.3.6"
